@@ -1,5 +1,8 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 5px;
 }
 
 .left-nav > ul,
@@ -9,23 +12,27 @@
 
 .left-nav {
 
-  > ul {
+  > ul { display: flex;
+        width: 300px;
+        justify-content: space-evenly;
     > li {
-
+      width: 100px;
+      display: flex;
+      justify-content: space-evenly;
     }
   }
 
   span {
-
   }
 }
 
 .right-nav  {
 
   > ul {
-
+    display: flex;
+        width: 200px;
+        justify-content: space-evenly;
     > li {
-  
     }
 
     > li:last-of-type {
@@ -40,5 +47,5 @@
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+    background: lightgray;
 }
