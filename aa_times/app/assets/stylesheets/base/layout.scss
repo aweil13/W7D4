@@ -29,8 +29,10 @@ button {
 	text-align: center;
 }
 
-#gear-sidebar-btn  button{
-	background-color: lightgray;
+#gear  button{
+	background-color: $light-gray;
+	border-color: white;
+	position: relative;
 }
 
 button:hover {

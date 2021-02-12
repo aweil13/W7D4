@@ -1,0 +1,16 @@
+.sections-nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    width: auto;
+}
+
+.sections-nav li:last-child {
+    text-decoration: underline;
+}
+
+.sections-nav > li > a:hover {
+    background-color: lightgray;
+}
